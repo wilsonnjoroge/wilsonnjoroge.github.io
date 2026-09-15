@@ -44,7 +44,9 @@ function Index() {
           </div>
           <aside className="grid max-w-xl gap-5 bg-card p-5 shadow-card sm:p-6 lg:max-w-none lg:justify-self-end" aria-label="Wilson Njoroge profile">
             <div className="grid grid-cols-[8.5rem_1fr] items-center gap-5 sm:grid-cols-[11rem_1fr]">
-              <img src={profileImage.url} alt="Wilson Njoroge Wanderi" className="aspect-[4/5] w-full object-cover object-top" loading="eager" />
+              <div className="flex aspect-[4/5] w-full items-center justify-center bg-secondary text-center">
+                <span className="font-display text-3xl font-medium text-foreground">WNW</span>
+              </div>
               <div>
                 <div className="flex items-center gap-2 text-xs font-bold uppercase text-primary"><span className="size-2 bg-primary" />Security-first engineering</div>
                 <p className="mt-4 text-sm leading-6 text-muted-foreground">Enterprise IT · Cybersecurity · Payment integrations</p>
