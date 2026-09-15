@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { Button } from "@/components/ui/button";
 import { contact, projects } from "@/lib/portfolio-data";
 
+
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
     { title: "Wilson Njoroge | Payment Middleware & Cybersecurity" },
