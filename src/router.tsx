@@ -1,8 +1,14 @@
-import { createRouter } from "@tanstack/react-router";
+import {
+  createRouter,
+  createBrowserHistory,
+} from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
+
+const history = createBrowserHistory();
 
 export const router = createRouter({
   routeTree,
+  history,
   scrollRestoration: true,
   defaultPreloadStaleTime: 0,
 });
